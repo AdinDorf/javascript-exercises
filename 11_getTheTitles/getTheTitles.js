@@ -1,4 +1,8 @@
-const getTheTitles = function() {
+const getTheTitles = function(books) {
+
+//Reduce the 2D array to a 1D array
+return books.map(item => item.title);
+
 
 };
 
